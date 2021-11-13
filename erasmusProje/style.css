@@ -1,0 +1,104 @@
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none!important;
+}
+a:checked{
+    text-decoration: none;
+}
+.mrg-auto{
+    margin: auto;
+}
+.f-left{
+    float: left;
+}
+#AllPage{
+    min-height: 100%;
+}
+.uniCards{
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+    transition-duration: .4s;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.navbarShadow{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+}
+.shadow{
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow-bot{
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.5);
+}
+.border-l{
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-radius: 5px;
+}
+.border-r{
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-radius: 5px;
+}
+.bcolor-green{
+    border-color: #46cc46;
+}
+.bcolor-orange{
+    border-color:orange;
+}
+.bcolor-blue{
+    border-color: #2f90eb;
+}
+.box-shd-hv{
+    transition-duration: .4s;
+}
+.box-shd-hv:hover{
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.hover-scale{
+    transition-duration: .4s;
+}
+.hover-scale:hover{
+    transform: scale(1.05);
+}
+.uniCards:hover{
+    transform: scale(1.15);
+	z-index: 5300;
+}
+.bg-orangeRed{
+    background: orangered;
+}
+.subjectLeftRight{
+    position: relative;
+    animation-name: leftToRight;
+    animation-duration: 1s;
+}
+.subjectRightLeft{
+    position: relative;
+    animation-name: RightToLeft;
+    animation-duration: 1s;
+}
+@keyframes leftToRight {
+    from {left: -3000px;}
+    to {left: 0px;}
+  }
+  @keyframes RightToLeft {
+    from {left: 3000px;}
+    to {left: 0px;}
+  }
+  .bg-lightGray{
+      background: lightgrey;
+  }
+  .fadeOutScroll{
+    opacity: 1;
+    height: auto;
+
+  }
+  .subjectsArea{
+    height: 400px;
+    overflow: hidden;
+    transition-duration: .7s;
+  }
+  .subjectsArea:hover{
+    height: 1000px;
+  }
+  
